@@ -1,0 +1,76 @@
+@import url(colors.css);
+
+html, body {
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    height: 100%;
+    background-image: url(../assets/background.svg);
+    overflow-y: auto;
+    scroll-behavior: smooth;
+    position: absolute;
+}
+
+::-webkit-scrollbar {
+    width: 4px;
+}
+
+
+
+::-webkit-scrollbar-track {
+    background-color: transparent;
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+background-image: linear-gradient(transparent, rgba(255, 255, 255, 0.6), transparent);
+}
+
+#audiobook {
+    display: block;
+    margin: 0 auto;
+}
+
+#title {
+    padding: 0;
+    margin:25px 0;
+    font-family: 'Patrick Hand', sans-serif; 
+    font-size:5rem;
+    font-weight: bold;
+    text-align: center;
+    color: var(--custom-white);
+}
+
+.chapter {
+    margin: 60px auto 0;
+    width:40%;
+    text-align: justify;
+    color: var(--custom-white);
+}
+.chapter p {
+    font-family: 'Patrick Hand', sans-serif; 
+    font-size:1.2rem;
+    font-weight: 300;
+    text-align: justify;
+}
+
+#nextpage-wrapper {
+    margin: 100px auto;
+    display: flex;
+    color: var(--custom-white);
+    justify-content: center;
+    column-gap: 30px;
+    font-size: 1.2rem;
+	font-family: 'Patrick Hand', sans-serif;
+}
+
+#nextpage-wrapper a {
+    color: var(--custom-white);
+    text-decoration: none;
+    font-size: 1.2rem;
+	font-family: 'Patrick Hand', sans-serif;
+}
+
+.spacer {
+    margin: 180px 0;
+}
