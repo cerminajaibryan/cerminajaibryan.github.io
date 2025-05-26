@@ -168,6 +168,7 @@ background-image: linear-gradient(transparent, rgba(255, 255, 255, 0.6), transpa
 
     .chapter {
         width: 80%;
+        max-width: 700px;
         margin: 40px auto 0;
     }
 
